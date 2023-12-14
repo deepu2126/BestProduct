@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
+
       <div className="m-5">
         <h1 className="text-3xl font-bold">
           A Clear Guide to Choosing the{" "}

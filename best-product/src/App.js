@@ -3,10 +3,11 @@ import NavBar from "./components/NavBar/NavBar";
 
 function App() {
   return (
-    <div className="p-5">
+    <div className="App">
       <NavBar />
+
       <div className="m-5">
-        <h1 className="text-3xl font-bold text-center">
+        <h1 className="text-3xl font-bold">
           A Clear Guide to Choosing the{" "}
           <span className="text-pink-600">Right One</span> <br /> Without the
           Confusion

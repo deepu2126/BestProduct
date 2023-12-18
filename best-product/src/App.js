@@ -15,7 +15,7 @@ function App() {
         <p className="text-center px-48 text-sm mt-3 font-medum text-slate-700">
           Embark on a seamless journey to find your perfect match! Our guide{" "}
           <br />
-          empowers you to navigate through the product landscape with clarity,
+          empowers you to navigate through the product landscape with clarity
           <br />
           ensuring confident decisions and minimal confusion.
         </p>

@@ -40,10 +40,28 @@ export default function IntialCard() {
   ];
 
   return (
-    <div className="grid grid-cols-4 gap-3">
-      {stepToExplore.map((item, index) => (
-        <Card key={index} step={index} content={item} />
-      ))}
-    </div>
+    <main className="p-2">
+      <div className="m-5">
+        <h1 className="text-3xl font-bold">
+          A Clear Guide to Choosing the{" "}
+          <span className="text-pink-600">Right One</span> <br /> Without the
+          Confusion
+        </h1>
+        <p className="text-center px-48 text-sm mt-3 font-medum text-slate-700">
+          Embark on a seamless journey to find your perfect match! Our guide{" "}
+          <br />
+          empowers you to navigate through the product landscape with clarity
+          <br />
+          ensuring confident decisions and minimal confusion.
+        </p>
+      </div>
+      <div>
+        <div className="grid grid-cols-4 gap-3">
+          {stepToExplore.map((item, index) => (
+            <Card key={index} step={index} content={item} />
+          ))}
+        </div>
+      </div>
+    </main>
   );
 }
